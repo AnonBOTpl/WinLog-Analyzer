@@ -21,6 +21,9 @@
 
 The application helps system administrators and IT professionals quickly identify issues by providing AI-powered explanations, severity assessments, and remediation steps for Windows events.
 
+<img width="1920" height="1031" alt="{948BD248-D410-4D91-BEAB-98D80280E098}" src="https://github.com/user-attachments/assets/5488dfd7-64c8-40a6-8658-807f42c8872c" />
+
+
 ## ✨ Features
 
 ### 📊 Event Log Reading
