@@ -1,0 +1,20 @@
+[project]
+name = "winlog-analyzer"
+version = "2.2.0"
+description = "Windows Event Log Analyzer with AI support"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.8",
+    "pywin32>=310",
+    "requests>=2.32",
+    "keyring>=25.6",
+    "tzdata>=2026.2",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6"]
+nuitka = ["nuitka>=2.6"]
+
+[project.scripts]
+winlog-analyzer = "main:main"

@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+config/settings.json
+data/
+*.db
+
+# Task files
+tasks/
+
+# Temp / audit
+audit.md
+language.md
+
+# Test files
+test.bat
+
+# Test cache
+**/__pycache__/
